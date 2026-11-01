@@ -1,0 +1,21 @@
+site_name: Juan Carlos Carvajal G.
+site_description: Oficial de Cumplimiento | Profesional en  Finanzas y Negocios Internacionales
+site_url: https://juancarloscarvajal.github.io/mi-portafolio/
+
+theme:
+  name: material
+  language: es
+  palette:
+    scheme: slate
+    primary: blue
+    accent: cyan
+  features:
+    - navigation.instant
+    - navigation.top
+
+extra_css:
+    - stylesheets/extra.css
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
